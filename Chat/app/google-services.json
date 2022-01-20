@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "263227913650",
+    "firebase_url": "https://chat-de13f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chat-de13f",
+    "storage_bucket": "chat-de13f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263227913650:android:1e0eea8cf9bdc4df8120ab",
+        "android_client_info": {
+          "package_name": "com.itcube.chatcube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263227913650-klbiadegd1gvj596cabclfmc1sqsmuvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itcube.chatcube",
+            "certificate_hash": "d714baf9e29dda1d97677e1a5dc590832cf386bf"
+          }
+        },
+        {
+          "client_id": "263227913650-vnr4pmvhjg04uqp4jnc02i2mabkfjium.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa1pC7Ui8fshPIju9vYtRVdDjBUyZf9BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263227913650-vnr4pmvhjg04uqp4jnc02i2mabkfjium.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
