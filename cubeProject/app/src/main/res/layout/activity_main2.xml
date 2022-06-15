@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lay2"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="День 2"
+        android:textSize="69sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="544dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="336dp"
+        android:text="Второй день начался более обычно: провели небольшую зарядку и флешмоб, а затем все разошлись по классам."
+        android:textSize="27sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="561dp"
+        android:layout_height="229dp"
+        android:layout_marginBottom="116dp"
+        android:text="Но больше всего участникам запомнился фотоконкурс Космограмм. Нужно было создать фотографию на космическую тему из подручных материалов. Однако, из-за нечестного голососвания решили, что победила дружба. Каждая команда получила по 5 очков."
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="298dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.509"
+        app:srcCompat="@drawable/img_20220610_120552_kosm" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="261dp"
+        android:layout_height="234dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:srcCompat="@drawable/img_20220610_121313_skak" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="104dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#00a693"
+        android:text="назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="105dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#00a693"
+        android:text="дальше"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toEndOf="@+id/button11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

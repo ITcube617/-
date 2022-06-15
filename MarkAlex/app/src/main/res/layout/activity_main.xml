@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:scrollbarSize="4dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView00"
+        android:layout_width="178dp"
+        android:layout_height="75dp"
+        android:text="Мини игры"
+        android:textColor="#FFC107"
+        android:textSize="31sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="189dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFC107"
+        android:text="Рандомайзер"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="189dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#FFC107"
+        android:text="Викторина"
+        android:textColor="#3F51B5"
+        app:iconTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="189dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#FFC107"
+        android:text="Кликер"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="go_to_clicker"/>
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="189dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFC107"
+        android:text="Кости"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
